@@ -10,6 +10,7 @@ module.exports = {
   contracts_build_directory: './abis/',
   compilers: {
     solc: {
+      version: '^0.8.2',
       optimizer: {
         enabled: true,
         runs: 200,
